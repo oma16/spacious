@@ -1,0 +1,94 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input[type=text],input[type=url],select, textarea{
+  background-color:#f2f2f2 !important;
+
+}
+.trunc{
+  max-width:150px;
+}
+.txtcolor{
+  color: #f2f2f2;
+}
+
+.navibar{
+  color:#121C33;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900!important;
+  line-height: 72px;
+  letter-spacing: 1px;
+  text-align: left;
+
+}
+.spaces{
+  color:#121C33;
+}
+.navs{
+  
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.btnnav {
+ background-color: #e0e5eb!important;
+ width: 120px;
+ 
+}
+.btnlink{
+  text-decoration: none;
+  color: black;
+  font-family: Poppins;
+}
+.planetimg{
+  width: 150px!important;
+  height: 150px!important;
+  margin-left: 50px!important;
+}
+.space{
+  color:#121C33;
+  font-family: Poppins;
+  font-size: 4.35vw;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0px;
+  text-align: center;
+
+}
+.cardradius{
+  border-radius:15px!important;
+}
+.cardius{
+  border-top-left-radius: 15px!important;
+  border-top-right-radius: 15px!important;
+}
+.selectt{
+  width: 150px!important;
+}
+
+ .btn-primary{
+  background-color: #121C33!important;
+  border-color: #121C33!important;
+  width: 220px!important;
+  height: 40px!important;
+}
+.btn{
+  font-family: Poppins!important;
+  font-weight: 600!important;
+  font-size: 16px!important;
+}
+.load{
+  border-radius: 15px;
+
+}
