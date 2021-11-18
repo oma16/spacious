@@ -1,6 +1,32 @@
 import React,{useState,useEffect} from 'react'
 import {Offcanvas, Button,Card,Container,Row ,Col} from 'react-bootstrap'
 import Planetdetails from './Planetdetails';
+import './strapi assets/planets/planet-1.svg';
+import './strapi assets/planets/planet-2.svg';
+import './strapi assets/planets/planet-3.svg';
+import './strapi assets/planets/planet-4.svg';
+import './strapi assets/planets/planet-5.svg';
+import './strapi assets/planets/planet-6.svg';
+import './strapi assets/planets/planet-7.svg';
+import './strapi assets/planets/planet-8.svg';
+import './strapi assets/planets/planet-9.svg';
+
+import './strapi assets/characters/character-1.png';
+import './strapi assets/characters/character-2.png'
+import './strapi assets/characters/character-3.png'
+import './strapi assets/characters/character-4.png'
+import './strapi assets/characters/character-5.png'
+import './strapi assets/characters/character-6.png'
+import './strapi assets/characters/character-7.png'
+import './strapi assets/characters/character-8.png'
+import './strapi assets/characters/character-9.png'
+import './strapi assets/characters/character-10.png'
+import './strapi assets/characters/character-11.png'
+import './strapi assets/characters/character-12.png'
+import './strapi assets/characters/character-13.png'
+import './strapi assets/characters/character-14.png'
+import './strapi assets/characters/character-15.png'
+import './strapi assets/characters/character-16.png'
 
 
 
@@ -10,208 +36,208 @@ function OffCanvasExample({ name, ...props }) {
 
   const Planets=[
     {
-        "id": 1,"image":"../strapi assets/planets/planet-1.svg","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","planetname":" Planet Alpha","num":235,"character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
+        "id": 1,"image":"./strapi assets/planets/planet-1.svg","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","planetname":" Planet Alpha","num":235,"character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
           },
-          {"id": 2,"image":"../strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
+          {"id": 2,"image":"./strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
           },
-          {"id": 3,"image":"../strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
+          {"id": 3,"image":"./strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
           },
-          {"id": 4,"image":"../strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
+          {"id": 4,"image":"./strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
           },
-          {"id": 5,"image":"../strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
+          {"id": 5,"image":"./strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
           },
-          {"id": 6,"image":"../strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
+          {"id": 6,"image":"./strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
           }]
     },
     {
-        "id": 2,"image":"../strapi assets/planets/planet-2.svg","planetname":" Planet Alpha", "description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.", "num":235,"character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
+        "id": 2,"image":"./strapi assets/planets/planet-2.svg","planetname":" Planet Alpha", "description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.", "num":235,"character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
       },
-      {"id": 2,"image":"../strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
+      {"id": 2,"image":"./strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
       },
-      {"id": 3,"image":"../strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
+      {"id": 3,"image":"./strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
       },
       
-      {"id": 4, "image":"../strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
+      {"id": 4, "image":"./strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
       },
-      {"id": 5,"image":"../strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
+      {"id": 5,"image":"./strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
       },
       {
-          "id": 6,"image":"../strapi assets/characters/character-12.png","charname":" Courtney Henry","numOffriends":23
+          "id": 6,"image":"./strapi assets/characters/character-12.png","charname":" Courtney Henry","numOffriends":23
       }]
     },
     {
-        "id": 3,"image":"../strapi assets/planets/planet-3.svg","planetname":" Planet Alpha", "description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.", "num":235,"character" :[
+        "id": 3,"image":"./strapi assets/planets/planet-3.svg","planetname":" Planet Alpha", "description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.", "num":235,"character" :[
           {
-            "id": 1,"image":"../strapi assets/characters/character-13.png","charname":" Annette Black","numOffriends":23
+            "id": 1,"image":"./strapi assets/characters/character-13.png","charname":" Annette Black","numOffriends":23
         },
         {
-            "id": 2,"image":"../strapi assets/characters/character-14.png","charname":" Brooklyn Williams","numOffriends":23
+            "id": 2,"image":"./strapi assets/characters/character-14.png","charname":" Brooklyn Williams","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-15.png","charname":" Kristin Williamson", "numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-15.png","charname":" Kristin Williamson", "numOffriends":23
 
         },
-        {"id": 4,"image":"../strapi assets/characters/character-16.png","charname":" Cameron Watson","numOffriends":23
+        {"id": 4,"image":"./strapi assets/characters/character-16.png","charname":" Cameron Watson","numOffriends":23
         }
         ]
     },
     {
-        "id": 4,"image":"../strapi assets/planets/planet-4.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235, "character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
+        "id": 4,"image":"./strapi assets/planets/planet-4.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235, "character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
         },
-        {"id": 2,"image":"../strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
+        {"id": 2,"image":"./strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
         },
-        {"id": 4,"image":"../strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
+        {"id": 4,"image":"./strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
         },
-        {"id": 5,"image":"../strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
+        {"id": 5,"image":"./strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
         },
-        {"id": 6,"image":"../strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
+        {"id": 6,"image":"./strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
         }
         ]
     },
     {
-        "id": 5,"image":"../strapi assets/planets/planet-5.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
+        "id": 5,"image":"./strapi assets/planets/planet-5.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
         },
-        {"id": 2,"image":"../strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
+        {"id": 2,"image":"./strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
         },
         
-        {"id": 4, "image":"../strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
+        {"id": 4, "image":"./strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
         },
-        {"id": 5,"image":"../strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
+        {"id": 5,"image":"./strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
         },
         {
-            "id": 6,"image":"../strapi assets/characters/character-12.png","charname":" Courtney Henry","numOffriends":23
+            "id": 6,"image":"./strapi assets/characters/character-12.png","charname":" Courtney Henry","numOffriends":23
         }
         ]
     },
     {
-        "id": 6,"image":"../strapi assets/planets/planet-6.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
+        "id": 6,"image":"./strapi assets/planets/planet-6.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
           {
-            "id": 1,"image":"../strapi assets/characters/character-13.png","charname":" Annette Black","numOffriends":23
+            "id": 1,"image":"./strapi assets/characters/character-13.png","charname":" Annette Black","numOffriends":23
         },
         {
-            "id": 2,"image":"../strapi assets/characters/character-14.png","charname":" Brooklyn Williams","numOffriends":23
+            "id": 2,"image":"./strapi assets/characters/character-14.png","charname":" Brooklyn Williams","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-15.png","charname":" Kristin Williamson", "numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-15.png","charname":" Kristin Williamson", "numOffriends":23
 
         },
-        {"id": 4,"image":"../strapi assets/characters/character-16.png","charname":" Cameron Watson","numOffriends":23
+        {"id": 4,"image":"./strapi assets/characters/character-16.png","charname":" Cameron Watson","numOffriends":23
         }
         ]
     },
     {
-        "id": 7, "image":"../strapi assets/planets/planet-7.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.", "num":235,"character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
+        "id": 7, "image":"./strapi assets/planets/planet-7.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.", "num":235,"character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
         },
-        {"id": 2,"image":"../strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
+        {"id": 2,"image":"./strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
         },
-        {"id": 4,"image":"../strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
+        {"id": 4,"image":"./strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
         },
-        {"id": 5,"image":"../strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
+        {"id": 5,"image":"./strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
         },
-        {"id": 6,"image":"../strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
+        {"id": 6,"image":"./strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
         }
         ]
     },
     {
-        "id": 8,"image":"../strapi assets/planets/planet-8.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
+        "id": 8,"image":"./strapi assets/planets/planet-8.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
         },
-        {"id": 2,"image":"../strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
+        {"id": 2,"image":"./strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
         },
         
-        {"id": 4, "image":"../strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
+        {"id": 4, "image":"./strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
         },
-        {"id": 5,"image":"../strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
+        {"id": 5,"image":"./strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
         },
         {
-            "id": 6,"image":"../strapi assets/characters/character-12.png","charname":" Courtney Henry","numOffriends":23
+            "id": 6,"image":"./strapi assets/characters/character-12.png","charname":" Courtney Henry","numOffriends":23
         }
         ]
     },
     {
-        "id": 9,"image":"../strapi assets/planets/planet-9.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
+        "id": 9,"image":"./strapi assets/planets/planet-9.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
           {
-            "id": 1,"image":"../strapi assets/characters/character-13.png","charname":" Annette Black","numOffriends":23
+            "id": 1,"image":"./strapi assets/characters/character-13.png","charname":" Annette Black","numOffriends":23
         },
         {
-            "id": 2,"image":"../strapi assets/characters/character-14.png","charname":" Brooklyn Williams","numOffriends":23
+            "id": 2,"image":"./strapi assets/characters/character-14.png","charname":" Brooklyn Williams","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-15.png","charname":" Kristin Williamson", "numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-15.png","charname":" Kristin Williamson", "numOffriends":23
 
         },
-        {"id": 4,"image":"../strapi assets/characters/character-16.png","charname":" Cameron Watson","numOffriends":23
+        {"id": 4,"image":"./strapi assets/characters/character-16.png","charname":" Cameron Watson","numOffriends":23
         }
         ]
     },
     
     {
-        "id": 10,"image":"../strapi assets/planets/planet-8.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
+        "id": 10,"image":"./strapi assets/planets/planet-8.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
         },
-        {"id": 2,"image":"../strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
+        {"id": 2,"image":"./strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
         },
-        {"id": 4,"image":"../strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
+        {"id": 4,"image":"./strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
         },
-        {"id": 5,"image":"../strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
+        {"id": 5,"image":"./strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
         },
-        {"id": 6,"image":"../strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
+        {"id": 6,"image":"./strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
         }
         ]
     },
     {
-        "id": 11,"image":"../strapi assets/planets/planet-9.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
+        "id": 11,"image":"./strapi assets/planets/planet-9.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
         },
-        {"id": 2,"image":"../strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
+        {"id": 2,"image":"./strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
         },
         
-        {"id": 4, "image":"../strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
+        {"id": 4, "image":"./strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
         },
-        {"id": 5,"image":"../strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
+        {"id": 5,"image":"./strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
         },
         {
-            "id": 6,"image":"../strapi assets/characters/character-12.png","charname":" Courtney Henry","numOffriends":23
+            "id": 6,"image":"./strapi assets/characters/character-12.png","charname":" Courtney Henry","numOffriends":23
         }
         ]
     },
     {
         "id": 12,
-        "image":"../strapi assets/planets/planet-6.svg",
+        "image":"./strapi assets/planets/planet-6.svg",
         "planetname":" Planet Alpha",
         "description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.",
         "num":235,
         "character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
+          {"id": 1,"image":"./strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
           },
-          {"id": 2,"image":"../strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
+          {"id": 2,"image":"./strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
           },
-          {"id": 3,"image":"../strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
+          {"id": 3,"image":"./strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
           },
-          {"id": 4,"image":"../strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
+          {"id": 4,"image":"./strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
           },
-          {"id": 5,"image":"../strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
+          {"id": 5,"image":"./strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
           },
-          {"id": 6,"image":"../strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
+          {"id": 6,"image":"./strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
           }]
     },
     {
         "id": 13,
-        "image":"../strapi assets/planets/planet-2.svg",
+        "image":"./strapi assets/planets/planet-2.svg",
         "planetname":" Planet Alpha",
         "description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.",
         "num":235,
@@ -220,49 +246,49 @@ function OffCanvasExample({ name, ...props }) {
         ]
     },
     {
-        "id": 14,"image":"../strapi assets/planets/planet-5.svg", "planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
+        "id": 14,"image":"./strapi assets/planets/planet-5.svg", "planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
           {
-            "id": 1,"image":"../strapi assets/characters/character-13.png","charname":" Annette Black","numOffriends":23
+            "id": 1,"image":"./strapi assets/characters/character-13.png","charname":" Annette Black","numOffriends":23
         },
         {
-            "id": 2,"image":"../strapi assets/characters/character-14.png","charname":" Brooklyn Williams","numOffriends":23
+            "id": 2,"image":"./strapi assets/characters/character-14.png","charname":" Brooklyn Williams","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-15.png","charname":" Kristin Williamson", "numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-15.png","charname":" Kristin Williamson", "numOffriends":23
 
         },
-        {"id": 4,"image":"../strapi assets/characters/character-16.png","charname":" Cameron Watson","numOffriends":23
+        {"id": 4,"image":"./strapi assets/characters/character-16.png","charname":" Cameron Watson","numOffriends":23
         }
         ]
     },
     {
-        "id": 15,"image":"../strapi assets/planets/planet-5.svg","planetname":" Planet Alpha", "description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
+        "id": 15,"image":"./strapi assets/planets/planet-5.svg","planetname":" Planet Alpha", "description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num":235,"character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-7.png","charname":"Jerome Bell","numOffriends":23
         },
-        {"id": 2,"image":"../strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
+        {"id": 2,"image":"./strapi assets/characters/character-8.png","charname":" Guy Hawkins","numOffriends":23
         },
-        {"id": 3,"image":"../strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
+        {"id": 3,"image":"./strapi assets/characters/character-9.png","charname":"Robert Fox","numOffriends":23
         },
         
-        {"id": 4, "image":"../strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
+        {"id": 4, "image":"./strapi assets/characters/character-10.png","charname":" Eleanor Pena","numOffriends":23
         },
-        {"id": 5,"image":"../strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
+        {"id": 5,"image":"./strapi assets/characters/character-11.png","charname":" Cody Fisher","numOffriends":23
         }
         ]
 
     },
     {
-        "id": 16,"image":"../strapi assets/planets/planet-1.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num": 235,"character" :[
-          {"id": 1,"image":"../strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
+        "id": 16,"image":"./strapi assets/planets/planet-1.svg","planetname":" Planet Alpha","description": "Planet Alpha is the place to be if you like everything related to planets. I know it’s a bit meta, but come see by yourself.","num": 235,"character" :[
+          {"id": 1,"image":"./strapi assets/characters/character-1.png","charname":" Brooklyn Simmons","numOffriends":23
           },
-          {"id": 2,"image":"../strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
+          {"id": 2,"image":"./strapi assets/characters/character-2.png","charname":" Cameron Williamson","numOffriends":23
           },
-          {"id": 3,"image":"../strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
+          {"id": 3,"image":"./strapi assets/characters/character-3.png","charname":" Leslie Alexander","numOffriends":23
           },
-          {"id": 4,"image":"../strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
+          {"id": 4,"image":"./strapi assets/characters/character-4.png","charname":" Kristin Watson","numOffriends":23
           },
-          {"id": 5,"image":"../strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
+          {"id": 5,"image":"./strapi assets/characters/character-5.png","charname":" Jenny Wilson","numOffriends":23
           },
-          {"id": 6,"image":"../strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
+          {"id": 6,"image":"./strapi assets/characters/character-6.png", "charname":" Marvin McKinney","numOffriends":23
           }]
     }
    
