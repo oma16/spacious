@@ -4,7 +4,7 @@ import React from 'react'
 import {Container,Row,Col,Button} from 'react-bootstrap';
 
 
-import '../Strapi assets/assets/planet-loader.svg'
+import './Strapi assets/assets/planet-loader.svg'
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
               <Row>
            <div className ="mt-5 d-flex justify-content-center align-content-center">
            <Col md={{ span: 4, offset: 0 }} className=" px-2 pt-4 pb-4  d-flex justify-content-center align-content-center  ">
-               <img  src="../Strapi assets/assets/planet-loader.svg" className="img-fluid" alt="planet-loader" />
+               <img  src="./Strapi assets/assets/planet-loader.svg" className="img-fluid" alt="planet-loader" />
                </Col>
                
                </div>

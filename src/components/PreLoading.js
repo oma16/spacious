@@ -2,7 +2,7 @@ import React from 'react';
 import Navibar from './Navibar';
 import {Container,Row,Col,Spinner} from 'react-bootstrap';
 
-import '../Strapi assets/assets/planet-loader.svg'
+import './Strapi assets/assets/planet-loader.svg'
 
 const PreLoading = () => {
     
@@ -19,7 +19,7 @@ const PreLoading = () => {
            <div className =" mt-5 d-flex justify-content-center align-content-center " >
             
             <Col md={{ span: 4, offset:0 }} className="load w-25 px-2 pt-4 pb-4 mt-5 bg-white d-flex justify-content-center align-content-center  ">
-               <img  src="../Strapi assets/assets/planet-loader.svg"  className="img-fluid" alt="planet-loader" />
+               <img  src="./Strapi assets/assets/planet-loader.svg"  className="img-fluid" alt="planet-loader" />
             </Col>
                
                </div>
