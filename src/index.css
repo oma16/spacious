@@ -75,6 +75,26 @@ input[type=text],input[type=url],select, textarea{
 }
 .selectt{
   width: 150px!important;
+  color:#121C33;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600 !important;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.header{
+  color:#121C33;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900 !important;
+  letter-spacing: 0px;
+  
+}
+.imgpos{
+  bottom: 50px !important;
+  right: 110px!important;
 }
 
  .btn-primary{

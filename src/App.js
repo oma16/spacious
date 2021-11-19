@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { HashRouter as Router,Routes, Route } from "react-router-dom";
  import Planet from "./components/Planet";
 import Character from "./components/Character";
-import Home from "./components/Home";
+
 import{Container} from "react-bootstrap";
 import PreLoading from "./components/PreLoading";
 import Navs from "./components/Navs";
@@ -18,7 +18,7 @@ function App() {
   
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 6000)
+    setTimeout(() => setLoading(false), 3000)
   }, [])
   return(
     

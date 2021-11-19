@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Modal,Button,Form} from "react-bootstrap";
-
+import chform from '../assets/plus-circle.svg'
 
 
 
@@ -14,7 +14,7 @@ const Chform = () => {
     <>
       
       <div className=" position-relative">
-                <img src="./Strapi assets/assets/plus-circle.svg" alt="" className="position-fixed bottom-0 end-0 translate-middle-x mx-5" onClick={handleShow} />
+                <img src={chform} alt="" className="imgpos position-fixed " onClick={handleShow} />
             </div>
      
 
@@ -25,7 +25,7 @@ const Chform = () => {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title className="navibar">Character</Modal.Title>
+          <Modal.Title className="header">Character</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <Form>

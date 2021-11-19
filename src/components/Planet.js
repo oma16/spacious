@@ -1,13 +1,13 @@
-import React from 'react'
-import Example from './Sidebar'
+ import React from 'react'
 import Pform from './Pform'
+import Planetside from './Sidebar'
 
 
 const Character = () => {
     return (
         <div>
             
-          <Example/>
+          <Planetside/>
           <Pform/>  
         </div>
     )

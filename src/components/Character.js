@@ -1,13 +1,13 @@
 import React from 'react'
 import Chform from './Chform'
 
-import Example from './Charsidebar'
+import Charside from './Charsidebar'
 
 const Character = () => {
     return (
         <div>
             
-          <Example/>
+          <Charside/>
           <Chform/>  
         </div>
     )

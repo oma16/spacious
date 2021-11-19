@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import { Modal,Button,Form} from "react-bootstrap";
+import pchform from '../assets/plus-square.svg'
 
 
 
@@ -14,7 +15,7 @@ const Planetdetails = () => {
     <>
       
       <div className=" position-relative">
-                <img src="./Strapi assets/assets/plus-square.svg" alt="" className="" onClick={handleShow} />
+                <img src={pchform} alt="" className="" onClick={handleShow} />
             </div>
      
 
@@ -25,7 +26,7 @@ const Planetdetails = () => {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title className="navibar">Character</Modal.Title>
+          <Modal.Title className="header">Character</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <Form>
