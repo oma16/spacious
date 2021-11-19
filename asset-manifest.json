@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/spacious/static/css/main.cc8b1448.chunk.css",
-    "main.js": "/spacious/static/js/main.8e963084.chunk.js",
-    "main.js.map": "/spacious/static/js/main.8e963084.chunk.js.map",
+    "main.js": "/spacious/static/js/main.a3c9665c.chunk.js",
+    "main.js.map": "/spacious/static/js/main.a3c9665c.chunk.js.map",
     "runtime-main.js": "/spacious/static/js/runtime-main.285184fc.js",
     "runtime-main.js.map": "/spacious/static/js/runtime-main.285184fc.js.map",
     "static/css/2.383c0125.chunk.css": "/spacious/static/css/2.383c0125.chunk.css",
@@ -13,13 +13,29 @@
     "index.html": "/spacious/index.html",
     "static/css/2.383c0125.chunk.css.map": "/spacious/static/css/2.383c0125.chunk.css.map",
     "static/css/main.cc8b1448.chunk.css.map": "/spacious/static/css/main.cc8b1448.chunk.css.map",
-    "static/js/2.27a28aea.chunk.js.LICENSE.txt": "/spacious/static/js/2.27a28aea.chunk.js.LICENSE.txt"
+    "static/js/2.27a28aea.chunk.js.LICENSE.txt": "/spacious/static/js/2.27a28aea.chunk.js.LICENSE.txt",
+    "static/media/character-1.b8cf9c50.png": "/spacious/static/media/character-1.b8cf9c50.png",
+    "static/media/character-10.f6fdbe59.png": "/spacious/static/media/character-10.f6fdbe59.png",
+    "static/media/character-11.436dd33b.png": "/spacious/static/media/character-11.436dd33b.png",
+    "static/media/character-12.93868536.png": "/spacious/static/media/character-12.93868536.png",
+    "static/media/character-13.323d7c56.png": "/spacious/static/media/character-13.323d7c56.png",
+    "static/media/character-14.e769e338.png": "/spacious/static/media/character-14.e769e338.png",
+    "static/media/character-15.6290ce78.png": "/spacious/static/media/character-15.6290ce78.png",
+    "static/media/character-16.68426aac.png": "/spacious/static/media/character-16.68426aac.png",
+    "static/media/character-2.6859fefd.png": "/spacious/static/media/character-2.6859fefd.png",
+    "static/media/character-3.a7f4a59a.png": "/spacious/static/media/character-3.a7f4a59a.png",
+    "static/media/character-4.1fd020f5.png": "/spacious/static/media/character-4.1fd020f5.png",
+    "static/media/character-5.2316ee86.png": "/spacious/static/media/character-5.2316ee86.png",
+    "static/media/character-6.839b5ded.png": "/spacious/static/media/character-6.839b5ded.png",
+    "static/media/character-7.fadfa678.png": "/spacious/static/media/character-7.fadfa678.png",
+    "static/media/character-8.341f1453.png": "/spacious/static/media/character-8.341f1453.png",
+    "static/media/character-9.d1414f7c.png": "/spacious/static/media/character-9.d1414f7c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.285184fc.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.27a28aea.chunk.js",
     "static/css/main.cc8b1448.chunk.css",
-    "static/js/main.8e963084.chunk.js"
+    "static/js/main.a3c9665c.chunk.js"
   ]
 }
