@@ -22,7 +22,7 @@ import character16 from '../characters/character-16.png'
 
 function Charside({ name, ...props }) {
   const Characters = [
-    {"id": 1,"image":character1, "planetname":"Alpha","charname":" Brooklyn Simmons","description":"Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.","numOffriends":"23", "friends":[
+    {"id": 1,"image":character1, "planetname":"Alpha","charname":" Brooklyn Simmons","description":" is really a nice person. She’s been living on planet Alpha for the last 10 years.","numOffriends":"23", "friends":[
       {"id": 1,"image":character7,"charname":"Jerome Bell","frienddetails":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
       },
       {"id": 2,"image":character8,"charname":" Guy Hawkins","frienddetails":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
@@ -39,7 +39,7 @@ function Charside({ name, ...props }) {
       }
   ]
   },
-    {"id": 2,"image":character2,"planetname":"Alpha","description":"Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.","charname":" Cameron Williamson","numOffriends":"23", "friends":[
+    {"id": 2,"image":character2,"planetname":"Alpha","description":" is really a nice person. She’s been living on planet Alpha for the last 10 years.","charname":" Cameron Williamson","numOffriends":"23", "friends":[
       {"id": 1,"image":character1,"charname":" Brooklyn Simmons","frienddetails":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
       },
       {"id": 2,"image":character2,"charname":" Cameron Williamson","frienddetails":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
@@ -314,7 +314,7 @@ return (
                 <Col sm={4} md ={3} xl={3} xs={12}  className ="" >
                 <div className="planet-view"  onClick={()=>handleShow(character)} key={character.id}>
                            
-  <Card className="mt-4 cardradius" >
+  <Card className="mt-4 cardradius " >
                                     
        <Card.Img variant="top" src={character.image} className="cardius img-fluid" />
         <Card.Body>
@@ -337,10 +337,10 @@ return (
         
            <Offcanvas show={show} onHide={handleClose} {...props} placement="end" className="mt-5 rounded cardius">
                <Offcanvas.Header closeButton>
-                  <Offcanvas.Title></Offcanvas.Title>
+               <Offcanvas.Title className="header">{charinfo.charname}</Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body  data-bs-scroll="true" >
-              <Offcanvas.Title className="header">{charinfo.charname}</Offcanvas.Title>
+              
                 <p> {charinfo.charname} {charinfo.description}</p>
                
                      <div className="d-flex flex-row justify-content-between">
@@ -350,10 +350,10 @@ return (
                          <div></div>
                         </div>
                         < h5 className="text-muted mt-5">FRIENDS</h5>
-             {Characters.map(charinfo => (
+             {Characters.map(char => (
              
                          <div >   
-              {charinfo.friends.map(charact =>{
+              {char.friends.map(charact =>{
                  return (
                    <div  key={charact.id}> 
 

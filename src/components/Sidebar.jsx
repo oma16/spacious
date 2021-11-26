@@ -314,9 +314,9 @@ function Planetside({ name, ...props }) {
                 <div className="planet-view" >
                 
                
-  <Card className="mt-4 cardradius"  onClick={ () =>handleShow(planet)} key={Planets.id}>
-                  <img variant="top" src={planet.image} alt="planet" className="img-fluid planetimg"/>
-                      <Card.Body>
+  <Card className="mt-4 cardradius "  onClick={ () =>handleShow(planet)} key={Planets.id}>
+                  <Card.Img variant="top" src={planet.image} alt="planet" className="img-fluid mt-3  "/>
+                      <Card.Body className="">
                       <Card.Title>{planet.planetname}</Card.Title>
                       <Card.Text>pop: {planet.num}</Card.Text>
                                                             
